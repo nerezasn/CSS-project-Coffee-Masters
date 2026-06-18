@@ -6,7 +6,7 @@ This project recreates a modern coffee shop checkout experience, allowing users 
 
 ## 🔗 Live Demo
 
-https://YOUR-GITHUB-PAGES-LINK
+https://nerezasn.github.io/CSS-project-Coffee-Masters/
 
 ## 📂 Repository
 
@@ -14,6 +14,7 @@ https://github.com/nerezasn/CSS-project-Coffee-Masters
 
 ## 📸 Preview
 
+<img width="2560" height="1988" alt="project-preview" src="https://github.com/user-attachments/assets/c438e34b-ac53-4af4-92ec-724838280991" />
 
 
 ## ✨ Features
