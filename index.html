@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Coffee Masters</title>
+  </head>
+
+  <body>
+    <header class="logo-section">
+      <a href="#">
+        <img
+          class="logo-img"
+          src="./img/coffee_masters_logo.png"
+          alt="Coffee shop logo with a cup of coffee and steam"
+        />
+        <h1 class="hero-title">Coffee Masters</h1>
+      </a>
+    </header>
+
+    <main class="container">
+      <form class="order-form" action="/">
+        <section class="items-container">
+          <h2>ITEMS</h2>
+
+          <div class="item">
+            <p class="item-quantity">1x</p>
+
+            <div class="item-description">
+              <p class="bold">Cappuccino</p>
+              <p class="light">Lite foam</p>
+            </div>
+
+            <p class="item-price bold">$3.35</p>
+          </div>
+
+          <div class="item">
+            <p class="item-quantity">1x</p>
+
+            <div class="item-description">
+              <p class="bold">Cappuccino</p>
+              <p class="light">Lite milk</p>
+              <p class="light">Double espresso</p>
+            </div>
+
+            <p class="item-price bold">$3.85</p>
+          </div>
+
+          <div class="item">
+            <p class="item-quantity">1x</p>
+
+            <div class="item-description">
+              <p class="bold">Croissant</p>
+              <p class="light">Butter</p>
+            </div>
+
+            <p class="item-price bold">$2.45</p>
+          </div>
+        </section>
+
+        <section class="info-container">
+          <div class="container-client-details">
+            <h2>NAME</h2>
+
+            <div class="dec-group">
+              <label class="input-label light" for="name">Name for order</label>
+              <input
+                class="input-info"
+                id="name"
+                name="name"
+                type="text"
+                placeholder="Ford Prefect"
+              />
+            </div>
+          </div>
+
+          <div class="container-payment-details">
+            <h2>PAYMENT</h2>
+
+            <div class="dec-group">
+              <label class="input-label light" for="card-number"
+                >Card number</label
+              >
+              <input
+                class="input-info"
+                id="card-number"
+                name="card-number"
+                type="text"
+                inputmode="numeric"
+                placeholder="1234 5678 9012 3456"
+              />
+            </div>
+
+            <div class="dec-group">
+              <label class="input-label light" for="cvv-number"
+                >CVV number</label
+              >
+              <input
+                class="input-info small-size"
+                id="cvv-number"
+                name="cvv-number"
+                type="text"
+                inputmode="numeric"
+                placeholder="001"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section class="payment-info">
+          <div class="payment-info-titles">
+            <p class="payment-info-content">Subtotal:</p>
+            <p class="payment-info-content">Tax:</p>
+            <p class="payment-info-content">Total:</p>
+          </div>
+
+          <div class="payment-info-price">
+            <p class="payment-info-content">$9.65</p>
+            <p class="payment-info-content">$0.82</p>
+            <p class="payment-info-content">$10.47</p>
+          </div>
+        </section>
+
+        <div class="button-section">
+          <button class="submit-button" type="submit">Place order</button>
+        </div>
+      </form>
+    </main>
+
+    <footer class="footer-section">
+      <p>&copy; 2026 Anastasiia Nerez</p>
+    </footer>
+  </body>
+</html>
